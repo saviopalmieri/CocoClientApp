@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:local="clr-namespace:CocoClientApp" 
+	x:Class="CocoClientApp.CocoClientAppPage" BackgroundColor="White">
+
+	<CarouselPage.Children>
+
+		<ContentPage BackgroundColor="White" Title="COCO" x:Name="PageHelp1" >
+			<ContentPage.Content>
+
+				<Grid>
+		          <Grid.RowDefinitions>
+		            <RowDefinition Height="*"/>
+		            <RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto" />
+		          </Grid.RowDefinitions>
+		          <Image Grid.Row="0" Aspect="AspectFit" Source="logo_coco.png"/>
+		          <StackLayout Grid.Row="1" BackgroundColor="#fff" Padding="12">
+		            <Label TextColor="#444" Text="Sei pronto a cambiare il modo di vivere le tue vacanze?" FontSize="16" 
+						HorizontalOptions="Center" VerticalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />
+
+					<Label TextColor="#3d83f5" Text="Scorri per continuare" FontSize="16" Margin="0,20,0,0"
+						HorizontalOptions="Center" VerticalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />
+		          </StackLayout>
+					<StackLayout Grid.Row="2" BackgroundColor="White" Padding="10" Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="FillAndExpand">
+
+						<Image Aspect="AspectFit" Source="circlefull.png" Margin="10,10,5,10" HeightRequest="10" />
+						<Image Aspect="AspectFit" Source="circlewhite.png" Margin="5,10,5,10" HeightRequest="10" />
+						<Image Aspect="AspectFit" Source="circlewhite.png" Margin="5,10,5,10" HeightRequest="10" />
+						<Image Aspect="AspectFit" Source="circlewhite.png" Margin="5,10,5,10" HeightRequest="10" />
+						<Image Aspect="AspectFit" Source="circlewhite.png" Margin="5,10,10,10" HeightRequest="10" />
+						
+					</StackLayout>
+		        </Grid>
+				
+			</ContentPage.Content>
+		</ContentPage>
+
+		<ContentPage BackgroundColor="White" Title="COCO" x:Name="PageHelp2" >
+			<ContentPage.Content>
+
+				<Grid>
+		          <Grid.RowDefinitions>
+		            <RowDefinition Height="*"/>
+		            <RowDefinition Height="Auto"/>
+					<RowDefinition Height="*"/>
+					<RowDefinition Height="Auto" />
+		          </Grid.RowDefinitions>
+		          <Image Grid.Row="0" Aspect="AspectFit" Source="carouselmedal1.png" HeightRequest="50" Margin="10,10,10,10"/>
+		          <StackLayout Grid.Row="1" BackgroundColor="#fff" Padding="12">
+		            <Label TextColor="Black" Text="Cerca il lido che fa per te." FontSize="22" 
+						HorizontalOptions="Center" VerticalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />
+
+					<Label TextColor="#444" Text="La mappa in automatico ti mostra i lidi con disponibilità per la data corrente." FontSize="16" Margin="0,10,0,0"
+						HorizontalOptions="Center" VerticalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />
+		          </StackLayout>
+					<Image Grid.Row="2" Aspect="AspectFit" Source="carousel1.png"/>
+					<StackLayout Grid.Row="3" BackgroundColor="White" Padding="10" Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="FillAndExpand">
+
+						<Image Aspect="AspectFit" Source="circlewhite.png" Margin="10,10,5,10" HeightRequest="10" />
+						<Image Aspect="AspectFit" Source="circlefull.png" Margin="5,10,5,10" HeightRequest="10" />
+						<Image Aspect="AspectFit" Source="circlewhite.png" Margin="5,10,5,10" HeightRequest="10" />
+						<Image Aspect="AspectFit" Source="circlewhite.png" Margin="5,10,5,10" HeightRequest="10" />
+						<Image Aspect="AspectFit" Source="circlewhite.png" Margin="5,10,10,10" HeightRequest="10" />
+						
+					</StackLayout>
+		        </Grid>
+				
+			</ContentPage.Content>
+		</ContentPage>
+
+		<ContentPage BackgroundColor="White" Title="COCO" x:Name="PageHelp3" >
+			<ContentPage.Content>
+
+				<Grid>
+		          <Grid.RowDefinitions>
+		            <RowDefinition Height="*"/>
+		            <RowDefinition Height="Auto"/>
+					<RowDefinition Height="*"/>
+					<RowDefinition Height="Auto" />
+		          </Grid.RowDefinitions>
+		          <Image Grid.Row="0" Aspect="AspectFit" Source="carouselmedal2.png" HeightRequest="50" Margin="10,10,10,10"/>
+		          <StackLayout Grid.Row="1" BackgroundColor="#fff" Padding="12">
+		            <Label TextColor="Black" Text="Paga tramite l'app." FontSize="22" 
+						HorizontalOptions="Center" VerticalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />
+
+					<Label TextColor="#444" Text="Paga in maniera sicura e veloce con PayPal o carta di credito." FontSize="16" Margin="0,10,0,0"
+						HorizontalOptions="Center" VerticalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />
+		          </StackLayout>
+					<Image Grid.Row="2" Aspect="AspectFit" Source="carousel2.png"/>
+					<StackLayout Grid.Row="3" BackgroundColor="White" Padding="10" Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="FillAndExpand">
+
+						<Image Aspect="AspectFit" Source="circlewhite.png" Margin="10,10,5,10" HeightRequest="10" />
+						<Image Aspect="AspectFit" Source="circlewhite.png" Margin="5,10,5,10" HeightRequest="10" />
+						<Image Aspect="AspectFit" Source="circlefull.png" Margin="5,10,5,10" HeightRequest="10" />
+						<Image Aspect="AspectFit" Source="circlewhite.png" Margin="5,10,5,10" HeightRequest="10" />
+						<Image Aspect="AspectFit" Source="circlewhite.png" Margin="5,10,10,10" HeightRequest="10" />
+						
+					</StackLayout>
+		        </Grid>
+				
+			</ContentPage.Content>
+		</ContentPage>
+
+		<ContentPage BackgroundColor="White" Title="COCO" x:Name="PageHelp4" >
+			<ContentPage.Content>
+
+				<Grid>
+		          <Grid.RowDefinitions>
+		            <RowDefinition Height="*"/>
+		            <RowDefinition Height="Auto"/>
+					<RowDefinition Height="*"/>
+					<RowDefinition Height="Auto" />
+		          </Grid.RowDefinitions>
+		          <Image Grid.Row="0" Aspect="AspectFit" Source="carouselmedal3.png" HeightRequest="50" Margin="10,10,10,10"/>
+		          <StackLayout Grid.Row="1" BackgroundColor="#fff" Padding="12">
+		            <Label TextColor="Black" Text="Rilassati. Non ti serve altro." FontSize="22" 
+						HorizontalOptions="Center" VerticalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />
+
+					<Label TextColor="#444" Text="Mostra il tuo ticket all'ingresso direttamente dall'app e goditi la giornata." FontSize="16" Margin="0,10,0,0"
+						HorizontalOptions="Center" VerticalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />
+		          </StackLayout>
+					<Image Grid.Row="2" Aspect="AspectFit" Source="carousel3.png"/>
+					<StackLayout Grid.Row="3" BackgroundColor="White" Padding="10" Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="FillAndExpand">
+
+						<Image Aspect="AspectFit" Source="circlewhite.png" Margin="10,10,5,10" HeightRequest="10" />
+						<Image Aspect="AspectFit" Source="circlewhite.png" Margin="5,10,5,10" HeightRequest="10" />
+						<Image Aspect="AspectFit" Source="circlewhite.png" Margin="5,10,5,10" HeightRequest="10" />
+						<Image Aspect="AspectFit" Source="circlefull.png" Margin="5,10,5,10" HeightRequest="10" />
+						<Image Aspect="AspectFit" Source="circlewhite.png" Margin="5,10,10,10" HeightRequest="10" />
+						
+					</StackLayout>
+		        </Grid>
+				
+			</ContentPage.Content>
+		</ContentPage>
+
+		<ContentPage BackgroundColor="White" Title="COCO" x:Name="PageHelp5" >
+			<ContentPage.Content>
+
+				<Grid>
+		          <Grid.RowDefinitions>
+		            <RowDefinition Height="*"/>
+		            <RowDefinition Height="Auto"/>
+					<RowDefinition Height="*"/>
+					<RowDefinition Height="Auto" />
+		          </Grid.RowDefinitions>
+		          <Image Grid.Row="0" Aspect="AspectFit" Source="carouselmedal4.png" HeightRequest="50" Margin="10,10,10,10"/>
+		          <StackLayout Grid.Row="1" BackgroundColor="#fff" Padding="12">
+		            <Label TextColor="#3d83f5" Text="... e non è finita qui!" FontSize="22" 
+						HorizontalOptions="Center" VerticalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />
+
+					<Label TextColor="#444" Text="Invita i tuoi amici ad usare COCO e ricevi uno sconto del 50%." FontSize="16" Margin="0,10,0,0"
+						HorizontalOptions="Center" VerticalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />
+		          </StackLayout>
+					<Image Grid.Row="2" Aspect="AspectFit" Source="carousel4.png"/>
+					<StackLayout Grid.Row="3" BackgroundColor="White" Padding="10" Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="FillAndExpand">
+
+						<Image Aspect="AspectFit" Source="circlewhite.png" Margin="10,10,5,10" HeightRequest="10" />
+						<Image Aspect="AspectFit" Source="circlewhite.png" Margin="5,10,5,10" HeightRequest="10" />
+						<Image Aspect="AspectFit" Source="circlewhite.png" Margin="5,10,5,10" HeightRequest="10" />
+						<Image Aspect="AspectFit" Source="circlewhite.png" Margin="5,10,5,10" HeightRequest="10" />
+						<Image Aspect="AspectFit" Source="circlefull.png" Margin="5,10,10,10" HeightRequest="10" />
+						
+					</StackLayout>
+		        </Grid>
+				
+			</ContentPage.Content>
+		</ContentPage>
+		
+	</CarouselPage.Children>
+	
+</CarouselPage>

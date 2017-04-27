@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{EFDDE0F7-4CD4-41E2-B5FF-9AD0F299E604}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CocoClientAppPage.xaml.cs">
+    <Files>
+      <File FileName="CocoClientAppPage.xaml" Line="1" Column="1" />
+      <File FileName="CocoClientAppPage.xaml.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.cococlientapp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.DC2A6E3F-2101-4294-9C15-4499A8303184" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CocoClientApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.DC2A6E3F-2101-4294-9C15-4499A8303184" />
+</Properties>
