@@ -17,21 +17,18 @@ namespace CocoClientApp
 			if (userInfo != null)
 			{
 				var result = RegistrationDAO.Instance.LoginUser(userInfo.mail, userInfo.password);
-				//if (result.data.lido != null)
-				//{
-				//	result.data.lido.booking_array = result.data.booking_array;
-
-				//	MainPage = new NavigationPage(new HomePage(result.data.lido));	
-				//}
-				//else
-				//{
-				//	MainPage = new NavigationPage(new CocoVendorAppPage(null));
-				//}
-				MainPage = new NavigationPage(new CocoClientAppPage());
+				if (result != null && !result.error)
+				{
+					//MainPage = new NavigationPage(new HomePage(result.data.lido));	
+				}
+				else
+				{
+					MainPage = new NavigationPage(new CocoClientAppPage());
+				}
 			}
 			else
 			{
-				MainPage = new CocoClientAppPage();
+				MainPage = new NavigationPage(new CocoClientAppPage());
 			}
 		}
 

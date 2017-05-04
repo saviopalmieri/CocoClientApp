@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CocoClientApp.LoginOrRegisterPage"
+	BackgroundColor="White">
+	<ContentPage.Content>
+
+		<StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+
+			<Image Aspect="AspectFit" Source="logo_coco" Margin="50,50,50,10"/>
+
+			<!--<Button Text="Accedi con Facebook" x:Name="btnAccediFb" HorizontalOptions="FillAndExpand"
+					VerticalOptions="Center" Clicked="Handle_Clicked"
+				BackgroundColor="#3d83f5" TextColor="White" FontSize="17" HeightRequest="45"
+				BorderRadius="3" Margin="20,5,20,10" >
+			</Button>-->
+
+			<Button Text="Accedi con email" x:Name="btnAccedi" HorizontalOptions="FillAndExpand"
+					VerticalOptions="Center" Clicked="Handle_Clicked1"
+				BackgroundColor="#444444" TextColor="White" FontSize="17" HeightRequest="45"
+				BorderRadius="3" Margin="20,5,20,10" >
+			</Button>
+
+			<Button Text="Accedi con Facebook" x:Name="btnExample" HorizontalOptions="FillAndExpand"
+					VerticalOptions="Center" Clicked="Handle_Clicked3" IsVisible="false"
+				BackgroundColor="#3D83F5" TextColor="White" FontSize="17" HeightRequest="45"
+				BorderRadius="3" Margin="20,5,20,10" >
+			</Button>
+			
+			<Label TextColor="#444" Text="Oppure" FontSize="12" Margin="20,5,20,10"
+				HorizontalOptions="Center" VerticalOptions="Center"/>
+
+			<Button Text="Crea account" x:Name="btnRegistrati" HorizontalOptions="FillAndExpand"
+					VerticalOptions="Center" Clicked="Handle_Clicked2"
+				BackgroundColor="White" TextColor="#3d83f5" FontSize="17"
+				BorderRadius="0" Margin="20,5,20,10" >
+			</Button>
+
+			<Label TextColor="#383838" Text="Iscrivendoti accetti i Termini di utilizzo e la Politica di privacy di Coco" FontSize="12" Margin="20,30,20,10"
+				HorizontalOptions="Center" VerticalOptions="End" HorizontalTextAlignment="Center" x:Name="lblPrivacy"/>
+			
+		</StackLayout>
+		
+	</ContentPage.Content>
+</ContentPage>

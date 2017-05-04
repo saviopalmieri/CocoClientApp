@@ -1,11 +1,14 @@
 ﻿<Properties StartupConfiguration="{647D537A-6D9F-4360-AE67-E1BA13B5F297}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.ItemProperties.CocoClientApp.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.81HEBMC25D5N" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CocoClientAppPage.xaml">
+  <MonoDevelop.Ide.ItemProperties.CocoClientApp.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LoginOrRegisterPage.xaml">
     <Files>
-      <File FileName="CocoClientAppPage.xaml" Line="153" Column="7" />
-      <File FileName="CocoClientAppPage.xaml.cs" Line="15" Column="1" />
-      <File FileName="Droid/Properties/AndroidManifest.xml" Line="1" Column="1" />
-      <File FileName="Droid/MainActivity.cs" Line="19" Column="1" />
+      <File FileName="RegisterPage.xaml" Line="57" Column="59" />
+      <File FileName="RegisterPage.xaml.cs" Line="97" Column="63" />
+      <File FileName="App.xaml.cs" Line="26" Column="61" />
+      <File FileName="LoginPage.xaml" Line="1" Column="1" />
+      <File FileName="CocoClientAppPage.xaml.cs" Line="10" Column="4" />
+      <File FileName="LoginOrRegisterPage.xaml.cs" Line="47" Column="4" />
+      <File FileName="LoginOrRegisterPage.xaml" Line="29" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
